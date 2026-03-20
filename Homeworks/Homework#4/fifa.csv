@@ -1,0 +1,201 @@
+Name,Age,Nationality,Club,Position,Preferred_Foot,Overall,Potential,Value_M,Wage_K,Pace,Shooting,Passing,Dribbling,Defending,Physic,Goals,Assists,Matches_Played,Height_cm,Weight_kg
+Player_0,23,Japan,PSG,GK,Right,96,97,34.2,44.3,55,11,63,15,81,68,19.0,17,17,182,87
+Player_1,36,Japan,Inter Milan,GK,Right,62,80,5.6,25.2,51,24,48,26,79,84,18.0,13,12,198,76
+Player_2,31,Spain,Man City,LW,Right,92,66,50.6,45.6,47,50,37,39,46,88,28.0,17,8,176,79
+Player_3,27,Netherlands,Real Madrid,CB,Left,87,98,31.4,8.1,59,50,58,37,88,74,9.0,13,35,193,82
+Player_4,24,England,Real Madrid,LW,Right,67,94,20.7,8.5,42,39,71,57,44,79,17.0,19,32,188,91
+Player_5,37,Japan,Chelsea,CAM,Left,93,77,,9.3,55,87,50,60,22,53,27.0,14,15,168,92
+Player_6,23,France,Man United,ST,Right,94,77,19.6,168.6,69,68,92,71,87,74,,3,5,172,64
+Player_7,35,Germany,Atletico Madrid,ST,Right,91,82,4.3,79.2,84,34,89,58,44,87,30.0,12,28,165,93
+Player_8,27,France,Inter Milan,CB,Right,83,96,5.7,10.6,62,94,86,83,39,84,26.0,7,35,165,70
+Player_9,27,Italy,AC Milan,CM,Right,73,96,2.4,12.5,67,42,38,53,53,59,10.0,17,30,179,62
+Player_10,37,Netherlands,Inter Milan,CM,Right,91,93,4.2,78.7,90,82,90,85,45,95,4.0,11,9,162,92
+Player_11,20,Spain,Dortmund,LB,Left,75,93,15.1,10.2,79,74,96,59,24,88,7.0,13,24,176,70
+Player_12,24,Portugal,Barcelona,CF,Right,63,80,18.9,16.0,93,61,58,55,80,52,33.0,1,15,171,75
+Player_13,19,Italy,Leicester,CB,Right,96,74,0.5,198.4,44,65,68,98,28,77,11.0,17,37,160,77
+Player_14,37,Morocco,Man City,GK,Left,80,94,39.8,17.7,59,25,64,25,81,88,0.0,1,31,176,89
+Player_15,18,Portugal,Tottenham,CM,Right,73,89,8.7,65.0,79,40,52,91,25,85,30.0,10,19,162,69
+Player_16,28,Spain,Chelsea,CDM,Right,90,84,60.7,230.7,95,92,53,95,79,88,3.0,8,36,185,77
+Player_17,22,Uruguay,Man United,CF,Right,77,69,85.7,28.1,83,50,65,75,63,47,4.0,11,25,174,78
+Player_18,18,Morocco,Barcelona,RW,Right,66,65,5.1,,40,81,94,67,30,82,29.0,16,9,195,72
+Player_19,37,Belgium,Arsenal,GK,Right,69,94,15.5,16.8,96,13,94,12,80,59,23.0,14,10,191,62
+Player_20,17,France,Juventus,CAM,Right,66,67,0.0,106.6,69,55,53,87,66,72,2.0,16,26,191,69
+Player_21,28,Italy,Liverpool,CDM,Right,92,78,22.8,120.0,60,97,83,38,92,65,10.0,17,22,163,60
+Player_22,28,Japan,Leicester,CDM,Right,82,94,23.4,,59,63,97,97,22,78,3.0,5,18,177,86
+Player_23,33,Japan,AC Milan,CB,Right,80,68,7.1,7.2,45,81,80,76,95,60,25.0,16,14,178,67
+Player_24,26,Senegal,Atletico Madrid,CF,Right,78,82,20.4,95.2,61,81,53,91,49,92,26.0,17,17,194,76
+Player_25,32,Brazil,Liverpool,LB,Right,78,89,6.4,150.6,57,58,56,41,40,88,26.0,7,35,199,68
+Player_26,31,Spain,Liverpool,CAM,Right,95,65,4.4,55.1,47,67,58,56,47,81,5.0,8,34,173,65
+Player_27,31,Japan,Man United,CM,Right,88,79,26.4,169.7,78,71,79,89,81,82,14.0,5,7,192,84
+Player_28,35,Croatia,PSG,CB,Right,77,73,9.9,105.2,71,50,46,67,52,93,29.0,4,34,173,87
+Player_29,28,Argentina,Arsenal,CM,Left,61,79,22.3,66.0,72,71,64,51,54,80,34.0,11,10,193,92
+Player_30,36,Argentina,Man City,CB,Right,60,88,14.2,51.6,92,42,92,58,71,48,22.0,10,33,163,68
+Player_31,19,Netherlands,Tottenham,CB,Left,64,68,103.9,25.7,55,93,72,95,53,63,5.0,0,12,183,77
+Player_32,21,Netherlands,Man City,CB,Right,79,76,4.1,10.4,51,46,87,95,60,76,3.0,10,37,188,80
+Player_33,35,France,Napoli,CF,Right,70,70,15.6,55.7,77,38,65,68,70,88,17.0,18,21,178,61
+Player_34,23,Japan,Liverpool,LB,Left,61,88,28.5,23.0,91,70,70,62,66,80,8.0,8,15,165,74
+Player_35,37,Japan,Leicester,CB,Left,62,75,12.6,120.8,73,30,98,92,77,56,28.0,1,17,192,87
+Player_36,25,France,Tottenham,RB,Right,82,77,91.9,300.7,53,31,53,77,94,63,12.0,11,15,199,77
+Player_37,23,Spain,Juventus,RW,Right,71,98,32.0,83.8,75,89,82,75,76,60,16.0,3,35,178,93
+Player_38,34,Uruguay,PSG,CM,Left,79,89,26.7,5.7,72,77,79,73,42,90,,3,32,160,81
+Player_39,20,Senegal,Inter Milan,GK,Right,64,71,35.4,20.4,62,17,70,13,84,98,21.0,17,10,164,70
+Player_40,30,Portugal,Tottenham,LW,Right,96,68,76.3,6.9,89,39,64,83,41,78,3.0,14,20,186,72
+Player_41,34,Germany,AC Milan,CAM,Left,97,72,59.6,63.1,84,87,89,51,36,94,4.0,18,8,175,63
+Player_42,25,England,Man City,ST,Left,89,84,32.2,,41,89,83,68,88,80,12.0,12,30,165,81
+Player_43,37,Portugal,Arsenal,LB,Left,68,93,34.6,156.0,80,50,89,40,30,78,33.0,18,16,199,66
+Player_44,18,France,Tottenham,GK,Left,93,74,3.9,34.6,60,18,67,19,85,52,21.0,16,15,172,83
+Player_45,36,Japan,Tottenham,CDM,Left,94,98,2.7,139.0,41,63,52,40,54,50,22.0,5,29,194,63
+Player_46,31,France,Napoli,RB,Right,81,90,21.2,126.2,66,37,97,68,52,85,2.0,15,22,178,87
+Player_47,23,Morocco,AC Milan,ST,Right,83,67,0.5,22.9,96,88,86,35,35,58,33.0,11,23,171,74
+Player_48,28,Mexico,Tottenham,LW,Right,76,70,16.5,121.9,48,78,83,44,53,50,31.0,18,27,175,60
+Player_49,24,Morocco,Liverpool,GK,Left,69,69,5.9,28.3,40,14,93,14,86,52,20.0,4,22,169,62
+Player_50,31,Brazil,Inter Milan,ST,Right,89,69,10.6,21.1,50,89,62,39,59,85,20.0,16,30,184,73
+Player_51,19,France,Arsenal,GK,Right,82,87,37.4,62.8,42,25,93,19,95,84,10.0,0,10,179,60
+Player_52,30,Japan,Inter Milan,RB,Right,91,73,70.9,23.9,91,98,81,56,66,40,3.0,9,8,190,80
+Player_53,33,Netherlands,Arsenal,LW,Right,76,84,1.9,59.7,62,61,45,82,58,79,0.0,14,33,163,88
+Player_54,20,Germany,Juventus,CDM,Right,76,82,19.1,56.5,65,73,91,91,89,83,27.0,10,21,182,64
+Player_55,34,Spain,Dortmund,CB,Left,73,81,53.5,49.7,43,94,94,36,92,58,23.0,12,20,161,69
+Player_56,24,Germany,Ajax,CM,Right,68,88,2.2,28.7,57,37,88,44,39,51,34.0,4,6,181,87
+Player_57,20,Spain,Napoli,CDM,Right,61,67,,47.7,94,72,79,68,20,47,12.0,0,12,196,80
+Player_58,18,Mexico,PSG,CB,Right,84,96,11.1,54.5,45,30,67,50,91,47,33.0,11,17,167,66
+Player_59,22,Japan,Man City,CF,Right,98,77,9.7,47.3,74,80,51,82,82,92,10.0,10,12,166,62
+Player_60,26,Portugal,Inter Milan,CF,Right,68,89,94.8,35.3,61,53,40,85,86,84,16.0,16,34,173,79
+Player_61,20,Italy,Liverpool,CF,Right,81,73,5.6,0.9,82,53,38,95,23,51,34.0,3,36,162,78
+Player_62,34,France,Napoli,LB,Right,63,68,29.5,53.1,54,46,54,73,77,87,17.0,14,34,175,94
+Player_63,28,Senegal,Juventus,RW,Right,85,78,43.1,11.1,61,34,82,56,44,72,21.0,8,5,178,63
+Player_64,18,Spain,AC Milan,CAM,Right,88,98,1.1,61.7,76,49,81,46,66,84,23.0,19,21,177,64
+Player_65,26,Japan,Man United,CAM,Right,93,75,27.7,85.5,91,50,61,58,57,65,18.0,18,24,175,60
+Player_66,20,Croatia,Juventus,CF,Right,82,67,75.7,41.6,81,87,49,81,34,78,20.0,18,28,167,63
+Player_67,30,Mexico,Dortmund,CM,Right,96,92,3.3,46.9,51,60,40,74,82,67,7.0,11,26,192,71
+Player_68,32,England,PSG,LW,Right,70,93,56.6,181.5,86,40,81,72,40,97,,4,33,171,86
+Player_69,31,England,Man City,RB,Right,65,73,22.6,112.7,88,81,48,94,76,44,,9,26,170,82
+Player_70,24,Colombia,Atletico Madrid,LW,Right,77,67,24.0,147.4,81,44,94,93,72,47,16.0,16,13,164,84
+Player_71,30,Portugal,Atletico Madrid,RB,Left,80,89,23.7,100.8,77,36,45,44,65,64,18.0,4,14,186,80
+Player_72,24,Brazil,Leicester,LW,Right,95,98,8.9,6.9,57,57,73,69,33,66,26.0,15,32,171,83
+Player_73,37,Spain,Ajax,RW,Right,97,76,68.4,9.7,84,80,43,98,95,85,33.0,6,32,176,84
+Player_74,32,USA,Inter Milan,LB,Right,93,73,73.6,44.9,74,87,60,85,36,62,10.0,8,25,165,91
+Player_75,29,Spain,Arsenal,LB,Left,76,79,,16.9,69,34,50,97,58,69,11.0,2,28,192,91
+Player_76,34,Argentina,Man United,CF,Left,96,89,38.2,38.9,63,34,39,83,28,84,20.0,14,6,164,64
+Player_77,31,Japan,Inter Milan,CB,Right,84,69,23.7,30.1,81,37,91,98,96,86,10.0,15,12,187,75
+Player_78,37,Germany,Tottenham,ST,Left,97,75,16.6,47.8,69,93,86,66,98,62,27.0,17,31,173,92
+Player_79,29,France,Bayern Munich,LB,Right,71,98,27.0,82.4,53,39,95,41,25,88,4.0,13,26,164,80
+Player_80,25,Senegal,Juventus,LB,Right,82,88,20.1,75.4,45,67,44,55,42,86,16.0,2,31,192,68
+Player_81,31,Senegal,Dortmund,CDM,Right,81,79,22.8,44.2,42,37,84,54,78,59,19.0,11,33,178,65
+Player_82,29,Croatia,AC Milan,CDM,Right,80,72,38.3,103.7,55,54,37,60,65,57,11.0,8,7,181,94
+Player_83,17,Mexico,Chelsea,CB,Left,86,69,16.4,33.8,46,95,47,97,57,57,5.0,6,17,164,81
+Player_84,23,England,Man United,ST,Right,90,90,1.0,136.2,91,79,77,38,33,41,16.0,8,14,161,64
+Player_85,25,France,Arsenal,CM,Right,65,82,4.5,4.4,53,96,83,80,91,43,18.0,12,13,189,82
+Player_86,17,Netherlands,Leicester,CDM,Right,86,70,14.4,185.6,48,78,64,86,81,69,25.0,17,31,198,76
+Player_87,28,Argentina,Barcelona,CM,Right,93,77,32.3,63.8,54,65,96,56,54,72,31.0,4,5,163,71
+Player_88,24,Senegal,PSG,GK,Right,71,92,22.5,28.7,60,22,88,21,71,75,5.0,12,36,192,82
+Player_89,27,Mexico,PSG,CDM,Right,66,69,26.3,13.2,74,70,79,90,49,57,10.0,3,29,172,75
+Player_90,35,France,Bayern Munich,RW,Right,69,77,16.3,39.1,41,91,40,74,97,76,32.0,1,33,179,62
+Player_91,33,Spain,Chelsea,ST,Right,76,81,23.9,13.0,66,39,51,55,44,58,23.0,15,11,166,89
+Player_92,24,Spain,Napoli,CB,Right,85,96,10.0,10.9,41,50,93,49,59,86,22.0,8,7,174,81
+Player_93,19,France,AC Milan,GK,Left,80,93,15.9,57.6,74,16,79,19,87,67,14.0,8,24,182,68
+Player_94,19,Morocco,Real Madrid,ST,Right,87,67,34.1,44.4,57,41,85,86,45,79,26.0,5,24,173,88
+Player_95,17,Belgium,Tottenham,CF,Right,61,98,51.4,66.5,53,31,87,62,41,59,10.0,10,34,182,82
+Player_96,21,France,Juventus,RW,Right,60,91,14.2,159.2,59,42,53,48,67,88,16.0,0,31,178,72
+Player_97,26,Portugal,AC Milan,ST,Right,95,77,1.1,45.6,57,82,76,61,70,72,13.0,3,30,188,91
+Player_98,23,Mexico,Liverpool,RW,Right,85,97,4.4,52.2,49,61,69,95,22,51,26.0,12,18,179,82
+Player_99,25,Morocco,Liverpool,RW,Left,88,70,0.5,5.6,64,45,80,75,61,97,17.0,12,21,188,76
+Player_100,23,USA,Bayern Munich,CM,Left,80,88,26.5,75.9,41,61,60,74,38,90,27.0,12,22,183,80
+Player_101,25,Brazil,Inter Milan,LW,Right,70,83,10.1,30.6,64,61,85,92,92,54,3.0,1,33,177,61
+Player_102,24,Belgium,Juventus,CF,Right,70,80,19.5,225.6,93,40,39,62,47,80,6.0,8,24,169,65
+Player_103,28,Brazil,Man United,GK,Right,95,92,17.0,104.0,72,29,63,22,81,78,34.0,7,31,167,77
+Player_104,18,Senegal,Juventus,ST,Right,98,97,2.1,44.3,75,44,98,83,90,41,8.0,6,22,185,89
+Player_105,17,Portugal,Man City,RB,Right,94,77,12.9,7.9,70,46,71,97,97,68,,3,8,188,81
+Player_106,32,Spain,AC Milan,GK,Left,93,89,,117.7,53,26,54,20,88,80,16.0,17,5,169,92
+Player_107,21,Netherlands,AC Milan,LW,Right,83,91,,96.5,40,47,83,59,92,49,16.0,2,5,176,89
+Player_108,19,Uruguay,Leicester,GK,Right,81,71,5.7,12.2,85,12,55,25,95,41,,5,30,161,76
+Player_109,28,Japan,Chelsea,LB,Right,64,69,45.9,21.0,55,54,44,96,66,90,31.0,11,24,165,91
+Player_110,24,Italy,Arsenal,RB,Right,92,95,4.8,94.6,93,88,98,37,33,50,7.0,11,27,164,73
+Player_111,19,Belgium,Juventus,LW,Right,95,87,81.0,12.3,85,51,39,42,57,52,18.0,7,14,187,69
+Player_112,17,France,Real Madrid,CM,Right,79,74,13.4,149.9,91,59,70,78,72,49,2.0,0,15,164,93
+Player_113,19,Morocco,Man City,ST,Left,78,96,46.8,33.2,42,73,40,67,80,53,4.0,3,9,177,68
+Player_114,21,Colombia,AC Milan,CAM,Left,94,94,24.8,5.5,74,61,60,76,55,57,12.0,10,5,185,87
+Player_115,31,Italy,Tottenham,LW,Right,76,95,33.2,101.5,80,80,38,86,59,90,30.0,2,21,179,70
+Player_116,30,Germany,Real Madrid,CB,Right,93,82,36.5,28.1,45,75,96,69,49,93,15.0,12,26,186,73
+Player_117,19,Colombia,Bayern Munich,ST,Left,68,66,,44.9,64,50,73,40,28,48,31.0,16,33,171,78
+Player_118,17,Spain,Bayern Munich,CF,Right,85,78,19.6,7.1,52,61,73,73,83,96,21.0,9,8,166,74
+Player_119,21,Portugal,Inter Milan,LW,Right,61,77,18.0,0.2,92,68,84,86,52,78,28.0,11,9,162,87
+Player_120,30,Mexico,AC Milan,LB,Right,68,93,22.2,61.0,73,41,69,57,71,67,21.0,14,15,169,83
+Player_121,23,Japan,AC Milan,CAM,Right,68,76,0.7,43.4,47,76,35,59,33,42,2.0,9,25,193,67
+Player_122,25,Mexico,Ajax,LB,Left,76,66,12.6,54.0,60,47,58,93,94,59,9.0,13,16,184,68
+Player_123,31,Croatia,Napoli,CAM,Left,60,96,23.3,94.7,73,50,91,84,72,45,,12,30,194,92
+Player_124,31,USA,Atletico Madrid,CF,Right,84,77,22.8,62.4,43,42,70,77,78,66,15.0,4,23,175,92
+Player_125,26,Brazil,PSG,CB,Right,84,91,39.4,11.5,64,50,40,53,97,92,11.0,5,11,161,78
+Player_126,29,Brazil,Liverpool,ST,Right,98,81,26.6,26.8,54,37,75,39,60,41,1.0,1,11,183,62
+Player_127,35,Senegal,Man City,CM,Right,94,95,121.1,141.8,43,75,88,85,87,68,23.0,16,30,169,69
+Player_128,23,Belgium,Leicester,LB,Left,62,98,8.3,88.2,84,36,80,45,87,77,34.0,3,9,197,60
+Player_129,33,England,Ajax,LB,Right,96,88,11.1,48.8,51,52,94,90,27,42,29.0,13,25,181,88
+Player_130,36,USA,Arsenal,RW,Right,89,70,12.1,17.7,71,51,78,46,21,55,29.0,9,18,185,93
+Player_131,20,Uruguay,Tottenham,CAM,Right,97,83,15.7,21.6,71,51,94,44,60,69,34.0,2,8,198,72
+Player_132,21,Argentina,Dortmund,CDM,Right,93,94,45.2,79.0,67,58,91,42,74,79,18.0,2,27,186,60
+Player_133,23,Spain,Ajax,ST,Right,71,71,6.7,114.3,52,42,65,58,35,41,7.0,14,24,188,93
+Player_134,29,Portugal,Real Madrid,CAM,Right,78,74,37.4,66.8,70,31,54,94,81,56,25.0,5,19,197,88
+Player_135,31,Croatia,Man City,RW,Right,96,96,13.0,99.5,53,58,58,62,67,80,6.0,16,33,179,72
+Player_136,27,Croatia,Napoli,GK,Left,76,98,23.0,87.3,59,14,59,17,92,51,29.0,11,12,186,88
+Player_137,20,Argentina,Atletico Madrid,CAM,Right,69,92,25.0,9.7,57,56,70,70,31,74,6.0,19,23,179,83
+Player_138,29,Italy,Inter Milan,CM,Right,71,79,11.7,33.1,68,79,55,71,54,82,2.0,10,32,178,85
+Player_139,23,Germany,Man United,ST,Right,75,94,18.0,,45,52,64,55,30,40,0.0,3,31,179,76
+Player_140,35,England,Napoli,RW,Left,83,93,,16.1,71,73,58,42,83,94,24.0,5,8,194,66
+Player_141,18,Colombia,Chelsea,GK,Left,78,86,1.8,122.1,68,28,78,17,87,84,0.0,0,19,161,72
+Player_142,26,USA,Bayern Munich,RB,Right,67,68,14.4,38.4,82,72,76,43,40,54,14.0,19,5,189,64
+Player_143,29,France,Inter Milan,RW,Right,90,84,,46.0,41,66,64,81,88,65,12.0,15,7,193,85
+Player_144,37,Portugal,Chelsea,RB,Left,80,96,13.0,11.8,62,90,56,49,67,76,7.0,14,28,181,62
+Player_145,22,Japan,Liverpool,ST,Right,76,68,22.5,22.5,58,85,62,82,39,60,4.0,16,31,162,66
+Player_146,28,Colombia,Chelsea,LB,Right,82,91,21.7,15.7,70,32,41,80,86,88,8.0,7,33,165,60
+Player_147,28,Morocco,Leicester,RW,Left,96,81,27.2,13.9,90,92,69,74,63,70,0.0,11,28,174,76
+Player_148,36,Belgium,PSG,CB,Right,75,76,2.5,61.0,44,48,89,52,52,64,34.0,9,28,186,84
+Player_149,27,Senegal,Arsenal,RB,Right,65,86,26.4,17.8,58,52,62,76,92,62,1.0,14,8,169,62
+Player_150,23,Argentina,Liverpool,CM,Right,67,81,9.4,60.0,73,58,48,94,80,63,22.0,8,7,168,74
+Player_151,17,Netherlands,Tottenham,CB,Right,84,74,12.7,,49,59,90,54,28,96,8.0,1,27,192,88
+Player_152,17,Croatia,Arsenal,LW,Right,77,65,48.8,9.2,64,68,44,40,87,77,33.0,4,27,191,91
+Player_153,36,Spain,Real Madrid,LW,Left,84,86,0.2,19.3,41,54,50,46,54,67,13.0,5,9,165,85
+Player_154,29,Spain,AC Milan,GK,Right,71,90,22.2,54.5,50,21,50,17,86,60,3.0,6,35,195,75
+Player_155,25,USA,Napoli,LB,Right,74,82,22.8,67.6,89,87,88,41,27,93,29.0,0,10,161,84
+Player_156,19,Brazil,AC Milan,ST,Right,85,78,12.6,35.1,70,45,65,50,64,82,30.0,6,14,188,87
+Player_157,23,Japan,Dortmund,RW,Right,85,93,6.8,35.4,95,30,76,37,66,57,10.0,19,11,163,68
+Player_158,22,Portugal,Man City,CDM,Left,91,76,6.7,77.4,54,34,59,79,59,75,34.0,11,25,160,60
+Player_159,24,Colombia,Bayern Munich,CM,Right,69,76,53.8,1.0,48,32,47,37,95,74,7.0,15,24,178,88
+Player_160,25,Spain,Leicester,RB,Right,75,71,14.6,25.0,62,94,40,61,73,84,2.0,15,7,185,81
+Player_161,21,Japan,PSG,ST,Left,66,93,10.0,102.5,58,33,78,84,95,94,13.0,10,26,184,75
+Player_162,17,Italy,Ajax,CB,Right,76,75,14.9,55.5,48,93,43,77,65,48,12.0,3,8,169,66
+Player_163,35,Argentina,Barcelona,CF,Right,82,97,27.7,24.7,74,39,79,74,66,92,31.0,12,32,174,73
+Player_164,26,France,Man United,LW,Right,85,70,3.9,141.6,60,50,70,72,34,77,33.0,6,16,181,88
+Player_165,28,Croatia,Leicester,CF,Right,80,79,14.9,88.9,48,75,90,67,38,97,18.0,3,9,180,78
+Player_166,31,Japan,AC Milan,CM,Right,81,96,22.2,18.5,67,56,77,62,45,69,15.0,14,17,181,78
+Player_167,25,Argentina,PSG,CDM,Right,66,75,74.2,62.2,85,95,54,35,71,83,1.0,18,27,195,61
+Player_168,36,Mexico,Real Madrid,RW,Left,73,87,7.3,54.3,90,70,52,89,41,73,16.0,8,34,193,74
+Player_169,33,Argentina,Real Madrid,GK,Right,74,90,11.1,30.8,46,16,92,22,75,71,33.0,10,29,189,62
+Player_170,33,USA,Leicester,CDM,Right,66,98,11.9,27.4,55,38,77,42,70,42,15.0,7,31,184,70
+Player_171,36,Senegal,Ajax,CM,Right,68,98,23.3,25.3,55,65,91,71,57,42,1.0,0,18,187,89
+Player_172,28,Mexico,Tottenham,CDM,Right,67,93,11.0,57.6,72,87,55,66,39,67,1.0,7,20,160,77
+Player_173,23,Argentina,Atletico Madrid,CM,Left,82,68,19.1,35.0,43,83,38,94,48,83,25.0,12,26,163,61
+Player_174,18,Croatia,Tottenham,CM,Right,88,81,38.1,107.0,43,41,84,82,70,54,12.0,3,25,166,91
+Player_175,19,Japan,AC Milan,CAM,Right,77,77,30.6,66.4,78,43,67,77,23,80,30.0,7,25,168,67
+Player_176,33,Japan,Real Madrid,RB,Right,90,79,14.8,4.3,79,63,61,71,74,62,33.0,2,12,195,81
+Player_177,21,Italy,Barcelona,CF,Right,89,93,49.9,61.3,56,82,41,38,90,79,2.0,8,20,178,65
+Player_178,33,Germany,Arsenal,LW,Right,98,93,20.4,19.0,76,49,40,64,47,50,7.0,1,35,160,71
+Player_179,33,Spain,Man City,CAM,Right,94,75,19.4,53.9,78,45,97,40,23,87,22.0,1,14,169,74
+Player_180,33,Argentina,Real Madrid,RW,Right,77,96,0.9,68.4,91,85,49,80,41,71,13.0,12,36,195,87
+Player_181,18,Belgium,Napoli,CAM,Left,98,66,108.0,15.7,68,87,52,88,95,97,26.0,14,13,168,77
+Player_182,18,Argentina,Bayern Munich,LB,Right,76,78,3.3,,91,33,66,53,64,98,28.0,11,21,191,61
+Player_183,21,Germany,Tottenham,LB,Right,73,84,6.6,12.7,75,33,90,66,86,96,0.0,3,15,191,72
+Player_184,17,Brazil,PSG,LW,Right,90,86,1.3,3.2,77,49,45,43,85,93,16.0,7,36,165,74
+Player_185,17,Belgium,PSG,CDM,Left,83,75,25.5,28.5,78,39,54,46,53,75,29.0,8,14,197,79
+Player_186,35,Spain,Bayern Munich,RB,Right,94,91,6.4,27.1,89,53,58,45,74,72,12.0,4,26,176,88
+Player_187,18,Argentina,Man City,LW,Left,93,67,5.0,324.0,76,55,49,80,20,63,20.0,19,21,169,88
+Player_188,37,Colombia,PSG,CM,Right,62,81,2.3,35.5,91,66,82,89,91,78,18.0,17,8,186,62
+Player_189,28,Germany,PSG,CB,Left,96,92,2.7,24.3,74,83,41,50,57,73,18.0,10,29,194,78
+Player_190,22,Japan,Man United,RB,Left,85,93,22.0,52.1,46,50,55,35,25,95,24.0,14,25,180,62
+Player_191,20,Japan,Man United,CF,Left,82,85,29.1,5.6,66,67,76,97,44,67,21.0,8,5,184,73
+Player_192,27,Brazil,Tottenham,RB,Left,98,80,12.7,,67,75,60,79,36,76,30.0,16,29,187,63
+Player_193,33,Senegal,Dortmund,CM,Right,74,84,16.3,60.5,61,33,78,89,80,46,16.0,11,21,174,70
+Player_194,22,Croatia,Arsenal,CM,Right,63,70,29.0,,53,89,90,87,31,43,22.0,6,28,163,90
+Player_195,21,Morocco,Dortmund,GK,Right,88,83,0.4,11.2,46,18,98,11,94,76,,9,6,188,91
+Player_196,36,France,Real Madrid,LW,Right,81,69,9.8,31.6,76,74,48,64,46,95,9.0,9,19,168,86
+Player_197,18,Spain,AC Milan,CM,Right,84,67,90.4,33.0,61,49,91,47,27,40,9.0,12,36,186,89
+Player_198,22,Spain,AC Milan,LB,Right,72,65,21.7,103.5,44,46,71,68,84,40,7.0,18,10,185,61
+Player_199,27,Uruguay,Liverpool,RW,Right,77,79,7.3,0.1,94,33,92,38,76,86,19.0,10,5,178,68
