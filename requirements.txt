@@ -1,0 +1,33 @@
+# ─── Core data + extraction ───────────────────────
+pandas>=2.1.0
+numpy>=1.26.0
+requests>=2.31.0
+yfinance>=0.2.40
+python-dotenv>=1.0.0
+
+# ─── Database (Jacob) ─────────────────────────────
+SQLAlchemy>=2.0.0
+mysql-connector-python>=8.2.0
+PyMySQL>=1.1.0
+
+# ─── API service (Jacob) ──────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# ─── Modeling (Karthikeya, Edison, Nick) ──────────
+scipy>=1.11.0
+scikit-learn>=1.4.0
+statsmodels>=0.14.0
+xgboost>=2.0.0
+
+# ─── Custom ML/DL extra credit (Nick) ─────────────
+# Uncomment whichever path Nick picks:
+# torch>=2.2.0
+# tensorflow>=2.15.0
+
+# ─── Testing & dev ────────────────────────────────
+pytest>=7.4.0
+pytest-mock>=3.12.0
+black>=24.0.0
+ruff>=0.3.0
