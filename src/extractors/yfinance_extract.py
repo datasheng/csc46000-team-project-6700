@@ -79,8 +79,12 @@ def fetch_yfinance_history(
                 "Volume": "volume",
                 "Dividends": "dividends",
                 "Stock Splits": "stock_splits",
+                "Capital Gains": "capital_gains",
             }
         )
+        # Catch-all: any future yfinance columns get normalized to snake_case
+        # so the downstream transform layer doesn't break on new releases.
+        df.columns = [str(c).strip().lower().replace(" ", "_") for c in df.columns]
         # yfinance sometimes returns a tz-aware DatetimeIndex; normalize to naive UTC.
         if df.index.tz is not None:
             df.index = df.index.tz_convert("UTC").tz_localize(None)
