@@ -48,14 +48,17 @@ def query(sql, params=None):
     return rows
 
 def serialize(rows):
-    """Convert date objects to strings for JSON serialization."""
+    """Convert date and Decimal objects for JSON serialization."""
     import datetime
+    import decimal
     cleaned = []
     for row in rows:
         clean_row = {}
         for k, v in row.items():
             if isinstance(v, (datetime.date, datetime.datetime)):
                 clean_row[k] = v.isoformat()
+            elif isinstance(v, decimal.Decimal):
+                clean_row[k] = float(v)
             else:
                 clean_row[k] = v
         cleaned.append(clean_row)

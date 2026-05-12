@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid,
   Tooltip, Legend, ResponsiveContainer,
@@ -11,10 +12,11 @@ interface Props {
 }
 
 type ChartRow = { date: string; predicted: number; actual: number };
+type Model = "lstm" | "xgboost";
 
-function toChartRows(preds: Prediction[], ticker: string): ChartRow[] {
+function toChartRows(preds: Prediction[], ticker: string, model: Model): ChartRow[] {
   return preds
-    .filter((p) => p.ticker === ticker)
+    .filter((p) => p.ticker === ticker && p.model_type.toLowerCase() === model)
     .filter((_, i) => i % 3 === 0)
     .map((p) => ({
       date:      p.date.slice(0, 10),
@@ -24,13 +26,32 @@ function toChartRows(preds: Prediction[], ticker: string): ChartRow[] {
 }
 
 export default function MLChart({ predictions }: Props) {
-  const spyData = toChartRows(predictions, "SPY");
-  const qqqData = toChartRows(predictions, "QQQ");
+  const [model, setModel] = useState<Model>("lstm");
+
+  const spyData = toChartRows(predictions, "SPY", model);
+  const qqqData = toChartRows(predictions, "QQQ", model);
 
   return (
     <div className="space-y-6">
-      {spyData.length > 0 && <Chart title="SPY — Predicted vs Actual Return" data={spyData} />}
-      {qqqData.length > 0 && <Chart title="QQQ — Predicted vs Actual Return" data={qqqData} />}
+      {/* Model toggle */}
+      <div className="flex gap-2">
+        {(["lstm", "xgboost"] as Model[]).map((m) => (
+          <button
+            key={m}
+            onClick={() => setModel(m)}
+            className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+              model === m
+                ? "bg-blue-600 text-white"
+                : "bg-gray-800 text-gray-400 hover:text-white"
+            }`}
+          >
+            {m.toUpperCase()}
+          </button>
+        ))}
+      </div>
+
+      {spyData.length > 0 && <Chart title={`SPY — Predicted vs Actual Return (${model.toUpperCase()})`} data={spyData} />}
+      {qqqData.length > 0 && <Chart title={`QQQ — Predicted vs Actual Return (${model.toUpperCase()})`} data={qqqData} />}
     </div>
   );
 }
