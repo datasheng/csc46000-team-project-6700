@@ -55,7 +55,7 @@ export interface Prediction {
   ticker: string;
   predicted_return: number;
   actual_return: number;
-  model_type: string;
+  model_name: string;
 }
 
 export const api = {
@@ -66,5 +66,5 @@ export const api = {
   abResults:   ()             => get<ABResult[]>("/ab-results"),
   abSummary:   ()             => get<ABSummary[]>("/ab-summary"),
   predictions: (model?: string) =>
-    get<Prediction[]>(model ? `/predictions?model_type=${model}` : "/predictions"),
+    get<Prediction[]>(model ? `/predictions?model_name=${model}` : "/predictions"),
 };
