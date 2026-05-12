@@ -180,15 +180,14 @@ def allocation_grid_search(returns: pd.DataFrame) -> pd.DataFrame:
         mc = run_monte_carlo(returns, allocation_qqq=qqq_w)
 
         rows.append({
-            "allocation_qqq": qqq_pct,
-            "allocation_spy": 100 - qqq_pct,
-            "expected_annual_return": round(ann_return, 6),
-            "annual_volatility": round(ann_vol, 6),
-            "sharpe_ratio": round(sharpe, 4),
-            "final_value_median": round(mc["percentile_50"], 2),
-            "final_value_pct5": round(mc["percentile_5"], 2),
-            "final_value_pct95": round(mc["percentile_95"], 2),
-        })
+    "qqq_pct": qqq_pct,
+    "spy_pct": 100 - qqq_pct,
+    "expected_return": round(ann_return, 6),
+    "volatility": round(ann_vol, 6),
+    "sharpe_ratio": round(sharpe, 4),
+    "worst_case_p95": round(mc["percentile_5"], 2),
+    "median_outcome": round(mc["percentile_50"], 2),
+})
 
     return pd.DataFrame(rows)
 
