@@ -22,9 +22,9 @@ statsmodels>=0.14.0
 xgboost>=2.0.0
 
 # ─── Custom ML/DL extra credit (Nick) ─────────────
-# Uncomment whichever path Nick picks:
-# torch>=2.2.0
-# tensorflow>=2.15.0
+# LSTM (PyTorch) + XGBoost walk-forward forecaster — src/models/ml_model.py
+torch>=2.2.0
+# tensorflow>=2.15.0  # not used — PyTorch chosen for LSTM
 
 # ─── Testing & dev ────────────────────────────────
 pytest>=7.4.0

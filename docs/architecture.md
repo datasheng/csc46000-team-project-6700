@@ -164,7 +164,7 @@ erDiagram
 | Database — loaders | `src/db/loaders.py` | Jacob | pending |
 | Model — Sharpe + Monte Carlo | `src/models/sharpe.py`, `monte_carlo.py` | Karthikeya | pending |
 | Model — A/B test | `src/models/ab_test.py` | Edison | pending |
-| Model — Custom ML/DL | `src/models/ml_model.py` | Nick (extra credit) | pending |
+| Model — Custom ML/DL | `src/models/ml_model.py` | Nick (extra credit) | done |
 | API service | `src/api/main.py` | Jacob | pending |
 | Web Front-End | `web/` | Mohmed (extra credit) | pending |
 | Tableau Dashboards | `tableau/*.twb` | All (paired) | pending |
