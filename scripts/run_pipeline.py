@@ -12,11 +12,14 @@ Usage:
     python run_pipeline.py
 """
 
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import yfinance as yf
 import pandas as pd
 import numpy as np
 from scipy import stats
-from loaders import (
+from src.db.loaders import (
     load_prices,
     load_daily_metrics,
     load_monte_carlo,

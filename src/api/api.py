@@ -27,10 +27,13 @@ Endpoints:
     GET /predictions?ticker=SPY          — filter by ticker
 """
 
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from sqlalchemy import text
-from loaders import get_engine
+from src.db.loaders import get_engine
 
 app = Flask(__name__)
 CORS(app)  # Allow React frontend to call from any origin
