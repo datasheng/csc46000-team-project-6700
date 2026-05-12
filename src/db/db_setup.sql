@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS monte_carlo_results (
     expected_return     DECIMAL(10,6),
     volatility          DECIMAL(10,6),
     sharpe_ratio        DECIMAL(10,6),
-    worst_case_p95      DECIMAL(10,6),           -- 95th percentile worst drawdown
+    worst_case_p95      DECIMAL(12,2),           -- 5th-pct final portfolio value from $50k simulation
     median_outcome      DECIMAL(12,2),           -- median final portfolio value from $50k
     PRIMARY KEY (qqq_pct)
 );

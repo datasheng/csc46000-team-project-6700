@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(git mv *)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(python scripts/load_monte_carlo.py)",
+      "Bash(curl -s http://localhost:5000/monte-carlo)",
+      "Bash(python src/api/api.py)",
+      "Bash(Start-Sleep -Seconds 3)",
+      "Bash(python -m json.tool)"
     ]
   }
 }
