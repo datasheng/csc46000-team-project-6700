@@ -2,6 +2,8 @@
 
 CSC 46000 — Group 6700 — Spring 2026 — Prof. Sheng Chen
 
+**Live Web App:** https://spy-vs-qqq-group6700.vercel.app
+
 End-to-end data science pipeline that compares SPY and QQQ ETFs to recommend the optimal QQQ:SPY allocation for a $50,000 investment. Live data flows from public APIs through Python and MySQL into Tableau dashboards and a web front-end.
 
 ## Core Questions
