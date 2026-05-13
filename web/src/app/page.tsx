@@ -79,6 +79,12 @@ export default async function OverviewPage() {
         </div>
       )}
 
+      {best && best[0] && best[0].qqq_pct > 70 && (
+        <div className="bg-yellow-950/30 border border-yellow-800 rounded-xl p-4 text-sm text-yellow-300">
+          <span className="font-semibold">Risk note:</span> The model favors high QQQ concentration based on 3-year Sharpe ratio. QQQ is tech-heavy and historically more volatile — its worst 5-year drawdown exceeds 22%. Risk-averse investors may prefer a more balanced split.
+        </div>
+      )}
+
       <div>
         <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">
           Dashboard Pages

@@ -28,6 +28,10 @@ export default async function AllocatorPage() {
         </div>
       )}
 
+      <div className="bg-yellow-950/30 border border-yellow-800 rounded-xl p-4 text-sm text-yellow-300">
+        <span className="font-semibold">Risk warning:</span> QQQ worst case over 5 years: <span className="font-mono">-22.8% drawdown</span>. High QQQ concentration maximizes Sharpe historically but carries significant downside risk during tech corrections.
+      </div>
+
       {rows ? (
         <AllocatorChart rows={rows} bestQqqPct={best?.[0]?.qqq_pct ?? null} />
       ) : (
